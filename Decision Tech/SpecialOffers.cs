@@ -8,5 +8,19 @@ namespace Decision_Tech
 {
     public class SpecialOffers
     {
+        private Product _products;
+
+        public SpecialOffers()
+        {
+            _products = new Product();
+        }
+
+        public Product MilkOffer
+        {
+            get
+            {
+                if(_products.Milk)
+            }
+        }
     }
 }

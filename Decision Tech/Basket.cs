@@ -6,10 +6,13 @@ using System.Threading.Tasks;
 
 namespace Decision_Tech
 {
-    public class Products
+    public class Basket
     {
-        public Product Butter { get; set; }
-        public Product Milk { get; set; }
-        public Product Bread { get; set; }
+        public Product Products { get; set; }
+
+        public Basket()
+        {
+
+        }
     }
 }

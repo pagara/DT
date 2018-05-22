@@ -1,8 +1,15 @@
-﻿namespace Decision_Tech
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace Decision_Tech
 {
     public class Product
     {
-        public string ProductName { get; set; }
-        public decimal ProductCost { get; set; }
+        public ProductDetails Butter { get; set; }
+        public ProductDetails Milk { get; set; }
+        public ProductDetails Bread { get; set; }
     }
 }
