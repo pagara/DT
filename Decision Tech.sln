@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2000
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decision Tech", "Decision Tech\Decision Tech.csproj", "{A8A98345-E4F8-4849-B5AB-83320E0E089B}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecisionTech_Test", "DecisionTech_Test\DecisionTech_Test.csproj", "{4D299DF2-8BA5-41C0-A29E-4E85F92AB2DF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{A8A98345-E4F8-4849-B5AB-83320E0E089B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8A98345-E4F8-4849-B5AB-83320E0E089B}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8A98345-E4F8-4849-B5AB-83320E0E089B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4D299DF2-8BA5-41C0-A29E-4E85F92AB2DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4D299DF2-8BA5-41C0-A29E-4E85F92AB2DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4D299DF2-8BA5-41C0-A29E-4E85F92AB2DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4D299DF2-8BA5-41C0-A29E-4E85F92AB2DF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
