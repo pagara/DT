@@ -8,11 +8,16 @@ namespace Decision_Tech
 {
     public class Basket
     {
-        public Product Products { get; set; }
+        IDictionary<IProduct, int> Products { get; set; }
 
         public Basket()
         {
+            Products = new Dictionary<IProduct, int>();
+        }
 
+        public void AddToBasket(IProduct product, int amount)
+        {
+            Products.Add(product, amount);
         }
     }
 }

@@ -8,18 +8,21 @@ namespace Decision_Tech
 {
     public class SpecialOffers
     {
-        private Product _products;
+        private IList<Product> _products;
 
         public SpecialOffers()
         {
-            _products = new Product();
+            _products = new List<Product>();
         }
 
-        public Product MilkOffer
+        public IList<Product> MilkOffer
         {
             get
             {
-                if(_products.Milk)
+                if(_products.Select(x => x.Milk).Count() % 3 != 0)
+                {
+                    return _products
+                }
             }
         }
     }

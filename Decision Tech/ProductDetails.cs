@@ -1,8 +1,8 @@
 ﻿namespace Decision_Tech
 {
-    public class ProductDetails
+    public class ProductDetails : IProduct
     {
-        public string ProductName { get; set; }
-        public decimal ProductCost { get; set; }
+        public string Name { get; set; }
+        public decimal Cost { get; set; }
     }
 }

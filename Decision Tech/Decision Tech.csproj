@@ -43,6 +43,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Basket.cs" />
+    <Compile Include="IProduct.cs" />
     <Compile Include="ProductDetails.cs" />
     <Compile Include="Product.cs" />
     <Compile Include="Program.cs" />
