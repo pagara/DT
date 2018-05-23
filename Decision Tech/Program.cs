@@ -8,8 +8,14 @@ namespace Decision_Tech
 {
     class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
+            Basket basket = new Basket();
+            basket.AddToBasket(new Product("Bread", 1.00M), 1);
+            basket.AddToBasket(new Product("Butter", 0.80M), 1);
+            basket.AddToBasket(new Product("Milk", 1.15M), 1);
+            Console.WriteLine(basket.Checkout().ToString("C"));
+            Console.ReadKey();
         }
     }
 }

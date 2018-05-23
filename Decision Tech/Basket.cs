@@ -19,5 +19,15 @@ namespace Decision_Tech
         {
             Products.Add(product, amount);
         }
+
+        public decimal Checkout()
+        {
+            decimal totalCost = 0;
+            foreach(var product in Products)
+            {
+                totalCost += product.Key.Cost * product.Value;
+            }
+            return totalCost;
+        }
     }
 }
